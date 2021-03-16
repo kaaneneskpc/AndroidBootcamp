@@ -6,7 +6,7 @@ This projects based on small projects where I apply the things I learned in the 
 
 ## Examples
 
-1- <a href="https://github.com/kaaneneskpc/Android-Bootcamp-Examples/tree/main/GuessTheWord">Guess The Word</a>
+1- <a href="https://github.com/kaaneneskpc/AndroidBootcamp/tree/main/GuessTheWord">Guess The Word</a>
 
 Have implemented architecture components in this week.Use view-model and live data techniques.
 
