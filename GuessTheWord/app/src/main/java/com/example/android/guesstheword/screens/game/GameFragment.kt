@@ -55,38 +55,31 @@ class GameFragment : Fragment() {
                 false
         )
 
+
         Log.i("GameFragment", "Called ViewModelProvider.get")
         viewModel = ViewModelProvider(this)[GameViewModel::class.java]
 
-        viewModel.score.observe(viewLifecycleOwner, Observer { newScore ->
+        /*viewModel.score.observe(viewLifecycleOwner, Observer { newScore ->
             binding.scoreText.text = newScore.toString()
-        })
-        viewModel.word.observe(viewLifecycleOwner, Observer { newWord ->
+        })*/
+        /*viewModel.word.observe(viewLifecycleOwner, Observer { newWord ->
             binding.wordText.text = newWord
-        })
+        })*/
 
         viewModel.eventGameFinish.observe(viewLifecycleOwner, Observer<Boolean> { hasFinished ->
             if (hasFinished) gameFinished()
         })
+        binding.gameViewModel = viewModel
 
-        binding.correctButton.setOnClickListener { onCorrect() }
-        binding.skipButton.setOnClickListener { onSkip() }
-        binding.endGameButton.setOnClickListener { onEndGame() }
+        binding.lifecycleOwner = viewLifecycleOwner
+
         updateScoreText()
         updateWordText()
         return binding.root
 
     }
 
-    private fun onSkip() {
-        viewModel.onSkip()
 
-    }
-
-    private fun onCorrect() {
-        viewModel.onCorrect()
-
-    }
 
     private fun updateWordText() {
         binding.wordText.text = viewModel.word.value
@@ -96,9 +89,7 @@ class GameFragment : Fragment() {
         binding.scoreText.text = viewModel.score.value.toString()
     }
 
-    private fun onEndGame() {
-        gameFinished()
-    }
+
 
     private fun gameFinished() {
         Toast.makeText(activity, "Game has just finished", Toast.LENGTH_SHORT).show()
