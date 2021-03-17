@@ -16,6 +16,5 @@ Learn More about : https://medium.com/mindorks/livedata-viewmodel-making-your-ow
 
 ## 1-Guess The Word
 
-![1](https://user-images.githubusercontent.com/32849662/111073370-7b8fbd80-84ef-11eb-8139-dd8fd58fd941.PNG)
-![2](https://user-images.githubusercontent.com/32849662/111073371-7cc0ea80-84ef-11eb-83c2-8623ce60a2cc.PNG)
-![image](https://user-images.githubusercontent.com/32849662/111350937-b0d51080-8693-11eb-9c0c-b58cea62962a.png)
+
+
