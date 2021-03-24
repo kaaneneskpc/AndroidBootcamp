@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.trackmysleepquality"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:5:5-22:19
+12        android:allowBackup="true"
+12-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] C:\Users\enes5\.gradle\caches\transforms-2\files-2.1\21831f77a9a0ca1233e2d00ac78bec03\core-1.3.1\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher_sleep_tracker"
+15-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:7:9-57
+16        android:label="@string/app_name"
+16-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_sleep_tracker_round"
+17-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:9:9-68
+18        android:supportsRtl="true"
+18-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.android.trackmysleepquality.MainActivity" >
+21-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:12:9-18:20
+21-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:12:19-47
+22            <intent-filter>
+22-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:13:13-17:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:14:17-69
+23-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:14:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:16:17-77
+25-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:16:27-74
+26            </intent-filter>
+27        </activity>
+28
+29        <meta-data
+29-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:19:9-21:57
+30            android:name="preloaded_fonts"
+30-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:20:13-43
+31            android:resource="@array/preloaded_fonts" />
+31-->D:\SOFTWARE\Android\AndroidBootcamp\TrackMySleepQualityCoroutines-Starter\app\src\main\AndroidManifest.xml:21:13-54
+32
+33        <service
+33-->[androidx.room:room-runtime:2.2.5] C:\Users\enes5\.gradle\caches\transforms-2\files-2.1\c0bfdd0eea52eba8bea9c9f4e99b30a2\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+34            android:name="androidx.room.MultiInstanceInvalidationService"
+34-->[androidx.room:room-runtime:2.2.5] C:\Users\enes5\.gradle\caches\transforms-2\files-2.1\c0bfdd0eea52eba8bea9c9f4e99b30a2\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+35            android:directBootAware="true"
+35-->[androidx.room:room-runtime:2.2.5] C:\Users\enes5\.gradle\caches\transforms-2\files-2.1\c0bfdd0eea52eba8bea9c9f4e99b30a2\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+36            android:exported="false" />
+36-->[androidx.room:room-runtime:2.2.5] C:\Users\enes5\.gradle\caches\transforms-2\files-2.1\c0bfdd0eea52eba8bea9c9f4e99b30a2\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+37
+38        <provider
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\enes5\.gradle\caches\transforms-2\files-2.1\2d26a096da34d968587145eaa2bf203b\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+39            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\enes5\.gradle\caches\transforms-2\files-2.1\2d26a096da34d968587145eaa2bf203b\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+40            android:authorities="com.example.android.trackmysleepquality.lifecycle-process"
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\enes5\.gradle\caches\transforms-2\files-2.1\2d26a096da34d968587145eaa2bf203b\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+41            android:exported="false"
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\enes5\.gradle\caches\transforms-2\files-2.1\2d26a096da34d968587145eaa2bf203b\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+42            android:multiprocess="true" />
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\enes5\.gradle\caches\transforms-2\files-2.1\2d26a096da34d968587145eaa2bf203b\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+43    </application>
+44
+45</manifest>
